@@ -26,7 +26,7 @@ export default function Home() {
           <div className="hero-image-container">
           <div className="hero-image-wrapper">
             <img 
-              src="/src/img/avatar-anibal.png"
+              src="/DrAnibalSanso/img/avatar-anibal.png"
               alt="Dr. Aníbal Sansó - Urólogo y Sexólogo en Tierra del Fuego"
               loading="lazy"
               width="115%"
