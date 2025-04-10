@@ -1,17 +1,17 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "module": "ESNext", // Soporte para ESM
+    "moduleResolution": "Node", // Resolución de módulos estilo Node.js
+    "forceConsistentCasingInFileNames": true, // Asegura consistencia en el uso de mayúsculas/minúsculas en nombres de archivos
+    "strict": true // Activa el modo estricto para reducir errores de tipo
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-  "compilerOptions": {
-    "module": "ESNext", // Soporte para ESM
-    "moduleResolution": "Node", // Resolución de módulos estilo Node.js
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "forceConsistentCasingInFileNames": true, // Asegura consistencia en el uso de mayúsculas/minúsculas en nombres de archivos
-    "strict": true // Activa el modo estricto para reducir errores de tipo
-  }
 }

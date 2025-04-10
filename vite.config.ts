@@ -8,11 +8,12 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 export default defineConfig({
+  
   base: '/DrAnibalSanso/', // Cambia esto por el nombre de tu repositorio
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
+    '@': path.resolve(__dirname, './src'),
+  },
   },
 })

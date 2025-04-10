@@ -1,10 +1,8 @@
-"use client";
-
 import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { ChevronDown } from "lucide-react";
 
-import { cn } from "@/lib/utils"; // Asegúrate de que el alias esté configurado correctamente
+import { cn } from "../../lib/utils"; // Asegúrate de que el alias esté configurado correctamente
 
 const Accordion = AccordionPrimitive.Root;
 
@@ -41,7 +39,7 @@ const AccordionTrigger = React.forwardRef<
 AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName;
 
 const AccordionContent = React.forwardRef<
-  React.ElementRef<typeof AccordionPrimitive.Content>,
+  React.ComponentRef<typeof AccordionPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Content>
 >(({ className, children, ...props }, ref) => (
   <AccordionPrimitive.Content
