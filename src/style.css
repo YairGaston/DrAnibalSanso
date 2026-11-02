@@ -222,6 +222,9 @@ body {
 .card-content {
   padding: 1.5rem;
 }
+.card-content p{
+  font-size: 0.8rem;
+}
 
 .card-title {
   font-size: 1.25rem;
