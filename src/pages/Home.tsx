@@ -21,6 +21,9 @@ export default function Home() {
             <p className="hero-description">
               Más de 15 años de experiencia brindando atención especializada en Tierra del Fuego
             </p>
+            <p className="hero-description">
+              Más de 30 años de experiencia nacional e internacional
+            </p>
             <ReserveButton/>
           </div>
           <div className="hero-image-container">
@@ -171,7 +174,7 @@ export default function Home() {
             <h3 className="footer-title">Dr. Aníbal Sansó</h3>
             <p className="footer-description">Urólogo y Sexólogo - Tierra del Fuego, Argentina</p>
             <p className="footer-copyright">
-              © {2025} Dr. Aníbal Sansó. Todos los derechos reservados.
+              © {2026} Dr. Aníbal Sansó. Todos los derechos reservados.
             </p>
           </div>
         </footer>
